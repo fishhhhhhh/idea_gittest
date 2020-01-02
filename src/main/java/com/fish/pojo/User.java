@@ -8,6 +8,15 @@ package com.fish.pojo;
 public class User {
     private String name;
     private int age;
+    private String birthday;
+
+    public String getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
 
     public String getName() {
         return name;
